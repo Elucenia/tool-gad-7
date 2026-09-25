@@ -1,0 +1,82 @@
+[
+  {
+    "label": "Nervosismo e preocupação em vários dias, dificuldade para relaxar em vários dias: 3 (mínima)",
+    "input": {
+      "q1": "1",
+      "q2": "0",
+      "q3": "1",
+      "q4": "1",
+      "q5": "0",
+      "q6": "0",
+      "q7": "0"
+    },
+    "expected": {
+      "score": 3,
+      "level": "low"
+    },
+    "originalInput": {
+      "q1": "1",
+      "q2": "0",
+      "q3": "1",
+      "q4": "1",
+      "q5": "0",
+      "q6": "0",
+      "q7": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Limite: 10 pontos (moderada)",
+    "input": {
+      "q1": "2",
+      "q2": "2",
+      "q3": "2",
+      "q4": "2",
+      "q5": "0",
+      "q6": "1",
+      "q7": "1"
+    },
+    "expected": {
+      "score": 10,
+      "level": "mid",
+      "verdict": "moderada"
+    },
+    "originalInput": {
+      "q1": "2",
+      "q2": "2",
+      "q3": "2",
+      "q4": "2",
+      "q5": "0",
+      "q6": "1",
+      "q7": "1"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Todos “quase todos os dias”: 21 (grave)",
+    "input": {
+      "q1": "3",
+      "q2": "3",
+      "q3": "3",
+      "q4": "3",
+      "q5": "3",
+      "q6": "3",
+      "q7": "3"
+    },
+    "expected": {
+      "score": 21,
+      "level": "high",
+      "verdict": "grave"
+    },
+    "originalInput": {
+      "q1": "3",
+      "q2": "3",
+      "q3": "3",
+      "q4": "3",
+      "q5": "3",
+      "q6": "3",
+      "q7": "3"
+    },
+    "expandedZeroOptions": []
+  }
+]

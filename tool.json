@@ -1,0 +1,327 @@
+{
+  "tool": {
+    "id": "gad-7",
+    "title": "Escala GAD-7",
+    "short": "Rastreamento e gravidade da ansiedade",
+    "spec": [
+      "psiquiatria",
+      "medicina-de-familia-e-comunidade",
+      "clinica-medica"
+    ],
+    "tier": 1,
+    "desc": "GAD-7, versão brasileira: rastreamento do transtorno de ansiedade generalizada e intensidade dos sintomas ansiosos nas últimas 2 semanas.",
+    "lead": "Rastreia transtorno de ansiedade generalizada e mede a intensidade dos sintomas ansiosos nas últimas 2 semanas. Não faz diagnóstico.",
+    "fields": [
+      [
+        "q1",
+        "Durante as últimas 2 semanas, com que frequência você foi incomodado(a) pelos problemas abaixo?<br>1. Sentir-se nervoso(a), ansioso(a) ou muito tenso(a)",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma vez",
+            "1": "Vários dias",
+            "2": "Mais da metade dos dias",
+            "3": "Quase todos os dias"
+          }
+        }
+      ],
+      [
+        "q2",
+        "2. Não ser capaz de impedir ou de controlar as preocupações",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma vez",
+            "1": "Vários dias",
+            "2": "Mais da metade dos dias",
+            "3": "Quase todos os dias"
+          }
+        }
+      ],
+      [
+        "q3",
+        "3. Preocupar-se muito com diversas coisas",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma vez",
+            "1": "Vários dias",
+            "2": "Mais da metade dos dias",
+            "3": "Quase todos os dias"
+          }
+        }
+      ],
+      [
+        "q4",
+        "4. Dificuldade para relaxar",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma vez",
+            "1": "Vários dias",
+            "2": "Mais da metade dos dias",
+            "3": "Quase todos os dias"
+          }
+        }
+      ],
+      [
+        "q5",
+        "5. Ficar tão agitado(a) que se torna difícil permanecer sentado(a)",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma vez",
+            "1": "Vários dias",
+            "2": "Mais da metade dos dias",
+            "3": "Quase todos os dias"
+          }
+        }
+      ],
+      [
+        "q6",
+        "6. Ficar facilmente aborrecido(a) ou irritado(a)",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma vez",
+            "1": "Vários dias",
+            "2": "Mais da metade dos dias",
+            "3": "Quase todos os dias"
+          }
+        }
+      ],
+      [
+        "q7",
+        "7. Sentir medo como se algo horrível fosse acontecer",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma vez",
+            "1": "Vários dias",
+            "2": "Mais da metade dos dias",
+            "3": "Quase todos os dias"
+          }
+        }
+      ]
+    ],
+    "score": {
+      "label": "GAD-7",
+      "unit": "de 21",
+      "bands": [
+        [
+          0,
+          "low",
+          "Ansiedade mínima (0 a 4)",
+          "Instrumento de rastreamento: não faz diagnóstico."
+        ],
+        [
+          5,
+          "mid",
+          "Ansiedade leve (5 a 9)",
+          "Instrumento de rastreamento: não faz diagnóstico. Reavalie em algumas semanas."
+        ],
+        [
+          10,
+          "mid",
+          "Ansiedade moderada (10 a 14): rastreamento positivo",
+          "Confirme com entrevista clínica: TAG, pânico, ansiedade social e TEPT também pontuam alto."
+        ],
+        [
+          15,
+          "high",
+          "Ansiedade grave (15 a 21): rastreamento positivo",
+          "Confirme com entrevista clínica e inicie tratamento ativo."
+        ]
+      ]
+    },
+    "formula": "<p>Cada item vale de 0 (nenhuma vez) a 3 (quase todos os dias). Total: 0 a 21. Pontos de corte de intensidade: 5, 10 e 15. Para rastrear transtorno de ansiedade generalizada, o corte ≥ 10 teve sensibilidade de 89% e especificidade de 82% no estudo original.</p>",
+    "table": [
+      [
+        "Pontos",
+        "Intensidade"
+      ],
+      [
+        "0 a 4",
+        "Mínima"
+      ],
+      [
+        "5 a 9",
+        "Leve"
+      ],
+      [
+        "10 a 14",
+        "Moderada"
+      ],
+      [
+        "15 a 21",
+        "Grave"
+      ]
+    ],
+    "tips": [
+      "O GAD-7 também detecta, com menor precisão, transtorno de pânico, ansiedade social e estresse pós-traumático: o resultado positivo pede entrevista para definir qual transtorno.",
+      "Antes de atribuir os sintomas a transtorno de ansiedade, afaste causas clínicas e substâncias: hipertireoidismo, cafeína, abstinência de álcool ou benzodiazepínicos, estimulantes.",
+      "Depressão e ansiedade coexistem com frequência: aplique o PHQ-9 junto e pergunte sobre ideação suicida.",
+      "Use o GAD-7 seriado para acompanhar a resposta ao tratamento (psicoterapia, ISRS/IRSN)."
+    ],
+    "sources": [
+      [
+        "Spitzer RL et al. A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med, 2006.",
+        "https://doi.org/10.1001/archinte.166.10.1092"
+      ],
+      [
+        "Moreno AL et al. Factor structure, reliability, and item parameters of the Brazilian-Portuguese version of the GAD-7 questionnaire. Temas em Psicologia, 2016.",
+        "https://doi.org/10.9788/TP2016.1-25"
+      ]
+    ],
+    "cases": [
+      [
+        "Nervosismo e preocupação em vários dias, dificuldade para relaxar em vários dias: 3 (mínima)",
+        {
+          "q1": "1",
+          "q2": "0",
+          "q3": "1",
+          "q4": "1",
+          "q5": "0",
+          "q6": "0",
+          "q7": "0"
+        },
+        {
+          "score": 3,
+          "level": "low"
+        }
+      ],
+      [
+        "Limite: 10 pontos (moderada)",
+        {
+          "q1": "2",
+          "q2": "2",
+          "q3": "2",
+          "q4": "2",
+          "q5": "0",
+          "q6": "1",
+          "q7": "1"
+        },
+        {
+          "score": 10,
+          "level": "mid",
+          "verdict": "moderada"
+        }
+      ],
+      [
+        "Todos “quase todos os dias”: 21 (grave)",
+        {
+          "q1": "3",
+          "q2": "3",
+          "q3": "3",
+          "q4": "3",
+          "q5": "3",
+          "q6": "3",
+          "q7": "3"
+        },
+        {
+          "score": 21,
+          "level": "high",
+          "verdict": "grave"
+        }
+      ]
+    ],
+    "batch": "neuro-mente",
+    "kind": "Escore",
+    "config": {
+      "unit": "de 21",
+      "label": "GAD-7",
+      "fields": [
+        [
+          "q1",
+          "radio",
+          0
+        ],
+        [
+          "q2",
+          "radio",
+          0
+        ],
+        [
+          "q3",
+          "radio",
+          0
+        ],
+        [
+          "q4",
+          "radio",
+          0
+        ],
+        [
+          "q5",
+          "radio",
+          0
+        ],
+        [
+          "q6",
+          "radio",
+          0
+        ],
+        [
+          "q7",
+          "radio",
+          0
+        ]
+      ],
+      "bands": [
+        [
+          0,
+          "low",
+          "Ansiedade mínima (0 a 4)",
+          "Instrumento de rastreamento: não faz diagnóstico."
+        ],
+        [
+          5,
+          "mid",
+          "Ansiedade leve (5 a 9)",
+          "Instrumento de rastreamento: não faz diagnóstico. Reavalie em algumas semanas."
+        ],
+        [
+          10,
+          "mid",
+          "Ansiedade moderada (10 a 14): rastreamento positivo",
+          "Confirme com entrevista clínica: TAG, pânico, ansiedade social e TEPT também pontuam alto."
+        ],
+        [
+          15,
+          "high",
+          "Ansiedade grave (15 a 21): rastreamento positivo",
+          "Confirme com entrevista clínica e inicie tratamento ativo."
+        ]
+      ]
+    },
+    "areaId": "neuro-mente",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/neuro-mente.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 3,
+      "passed": 3,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/neuro-mente.php",
+    "sha256": "3ce3a7987a3ec63938e5f21d8d24ec7f7f8880c1b54458ef7046807a89221cac",
+    "bytes": 102818
+  },
+  "clinicalValidation": "not-performed"
+}
