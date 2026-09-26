@@ -1,7 +1,7 @@
 {
   "name": "@elucenia/tool-gad-7",
   "version": "0.1.0",
-  "description": "Escala GAD-7 · Elucenia: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
+  "description": "Escala GAD-7 · ELUCENIA: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
   "keywords": [
     "elucenia",
     "medical-calculator",
