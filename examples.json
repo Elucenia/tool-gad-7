@@ -1,6 +1,18 @@
 [
   {
-    "label": "Nervosismo e preocupação em vários dias, dificuldade para relaxar em vários dias: 3 (mínima)",
+    "id": "gad-7",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Nervosismo e preocupação em vários dias, dificuldade para relaxar em vários dias: 3 (mínima)",
+    "originalInput": {
+      "q1": "1",
+      "q2": "0",
+      "q3": "1",
+      "q4": "1",
+      "q5": "0",
+      "q6": "0",
+      "q7": "0"
+    },
     "input": {
       "q1": "1",
       "q2": "0",
@@ -14,19 +26,39 @@
       "score": 3,
       "level": "low"
     },
-    "originalInput": {
-      "q1": "1",
-      "q2": "0",
-      "q3": "1",
-      "q4": "1",
-      "q5": "0",
-      "q6": "0",
-      "q7": "0"
+    "recordedResult": {
+      "main": [
+        "3",
+        "de 21"
+      ],
+      "label": "GAD-7",
+      "raw": {
+        "score": 3
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Limite: 10 pontos (moderada)",
+    "id": "gad-7",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Limite: 10 pontos (moderada)",
+    "originalInput": {
+      "q1": "2",
+      "q2": "2",
+      "q3": "2",
+      "q4": "2",
+      "q5": "0",
+      "q6": "1",
+      "q7": "1"
+    },
     "input": {
       "q1": "2",
       "q2": "2",
@@ -41,19 +73,39 @@
       "level": "mid",
       "verdict": "moderada"
     },
-    "originalInput": {
-      "q1": "2",
-      "q2": "2",
-      "q3": "2",
-      "q4": "2",
-      "q5": "0",
-      "q6": "1",
-      "q7": "1"
+    "recordedResult": {
+      "main": [
+        "10",
+        "de 21"
+      ],
+      "label": "GAD-7",
+      "raw": {
+        "score": 10
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Todos “quase todos os dias”: 21 (grave)",
+    "id": "gad-7",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "Todos “quase todos os dias”: 21 (grave)",
+    "originalInput": {
+      "q1": "3",
+      "q2": "3",
+      "q3": "3",
+      "q4": "3",
+      "q5": "3",
+      "q6": "3",
+      "q7": "3"
+    },
     "input": {
       "q1": "3",
       "q2": "3",
@@ -68,15 +120,23 @@
       "level": "high",
       "verdict": "grave"
     },
-    "originalInput": {
-      "q1": "3",
-      "q2": "3",
-      "q3": "3",
-      "q4": "3",
-      "q5": "3",
-      "q6": "3",
-      "q7": "3"
+    "recordedResult": {
+      "main": [
+        "21",
+        "de 21"
+      ],
+      "label": "GAD-7",
+      "raw": {
+        "score": 21
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

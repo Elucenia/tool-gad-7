@@ -3,14 +3,14 @@
     "id": "gad-7",
     "title": "Escala GAD-7",
     "short": "Rastreamento e gravidade da ansiedade",
+    "desc": "GAD-7, versão brasileira: rastreamento do transtorno de ansiedade generalizada e intensidade dos sintomas ansiosos nas últimas 2 semanas.",
+    "lead": "Rastreia transtorno de ansiedade generalizada e mede a intensidade dos sintomas ansiosos nas últimas 2 semanas. Não faz diagnóstico.",
+    "kind": "Escore",
     "spec": [
       "psiquiatria",
       "medicina-de-familia-e-comunidade",
       "clinica-medica"
     ],
-    "tier": 1,
-    "desc": "GAD-7, versão brasileira: rastreamento do transtorno de ansiedade generalizada e intensidade dos sintomas ansiosos nas últimas 2 semanas.",
-    "lead": "Rastreia transtorno de ansiedade generalizada e mede a intensidade dos sintomas ansiosos nas últimas 2 semanas. Não faz diagnóstico.",
     "fields": [
       [
         "q1",
@@ -104,65 +104,7 @@
         }
       ]
     ],
-    "score": {
-      "label": "GAD-7",
-      "unit": "de 21",
-      "bands": [
-        [
-          0,
-          "low",
-          "Ansiedade mínima (0 a 4)",
-          "Instrumento de rastreamento: não faz diagnóstico."
-        ],
-        [
-          5,
-          "mid",
-          "Ansiedade leve (5 a 9)",
-          "Instrumento de rastreamento: não faz diagnóstico. Reavalie em algumas semanas."
-        ],
-        [
-          10,
-          "mid",
-          "Ansiedade moderada (10 a 14): rastreamento positivo",
-          "Confirme com entrevista clínica: TAG, pânico, ansiedade social e TEPT também pontuam alto."
-        ],
-        [
-          15,
-          "high",
-          "Ansiedade grave (15 a 21): rastreamento positivo",
-          "Confirme com entrevista clínica e inicie tratamento ativo."
-        ]
-      ]
-    },
     "formula": "<p>Cada item vale de 0 (nenhuma vez) a 3 (quase todos os dias). Total: 0 a 21. Pontos de corte de intensidade: 5, 10 e 15. Para rastrear transtorno de ansiedade generalizada, o corte ≥ 10 teve sensibilidade de 89% e especificidade de 82% no estudo original.</p>",
-    "table": [
-      [
-        "Pontos",
-        "Intensidade"
-      ],
-      [
-        "0 a 4",
-        "Mínima"
-      ],
-      [
-        "5 a 9",
-        "Leve"
-      ],
-      [
-        "10 a 14",
-        "Moderada"
-      ],
-      [
-        "15 a 21",
-        "Grave"
-      ]
-    ],
-    "tips": [
-      "O GAD-7 também detecta, com menor precisão, transtorno de pânico, ansiedade social e estresse pós-traumático: o resultado positivo pede entrevista para definir qual transtorno.",
-      "Antes de atribuir os sintomas a transtorno de ansiedade, afaste causas clínicas e substâncias: hipertireoidismo, cafeína, abstinência de álcool ou benzodiazepínicos, estimulantes.",
-      "Depressão e ansiedade coexistem com frequência: aplique o PHQ-9 junto e pergunte sobre ideação suicida.",
-      "Use o GAD-7 seriado para acompanhar a resposta ao tratamento (psicoterapia, ISRS/IRSN)."
-    ],
     "sources": [
       [
         "Spitzer RL et al. A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med, 2006.",
@@ -225,75 +167,6 @@
         }
       ]
     ],
-    "kind": "Escore",
-    "config": {
-      "unit": "de 21",
-      "label": "GAD-7",
-      "fields": [
-        [
-          "q1",
-          "radio",
-          0
-        ],
-        [
-          "q2",
-          "radio",
-          0
-        ],
-        [
-          "q3",
-          "radio",
-          0
-        ],
-        [
-          "q4",
-          "radio",
-          0
-        ],
-        [
-          "q5",
-          "radio",
-          0
-        ],
-        [
-          "q6",
-          "radio",
-          0
-        ],
-        [
-          "q7",
-          "radio",
-          0
-        ]
-      ],
-      "bands": [
-        [
-          0,
-          "low",
-          "Ansiedade mínima (0 a 4)",
-          "Instrumento de rastreamento: não faz diagnóstico."
-        ],
-        [
-          5,
-          "mid",
-          "Ansiedade leve (5 a 9)",
-          "Instrumento de rastreamento: não faz diagnóstico. Reavalie em algumas semanas."
-        ],
-        [
-          10,
-          "mid",
-          "Ansiedade moderada (10 a 14): rastreamento positivo",
-          "Confirme com entrevista clínica: TAG, pânico, ansiedade social e TEPT também pontuam alto."
-        ],
-        [
-          15,
-          "high",
-          "Ansiedade grave (15 a 21): rastreamento positivo",
-          "Confirme com entrevista clínica e inicie tratamento ativo."
-        ]
-      ]
-    },
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -302,17 +175,310 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T13:01:58.037Z",
+      "total": 44,
+      "passed": 44,
+      "evidencePath": "reports/review-20261003/four-score-sum-source-oracles-who2001-final23.json",
+      "evidenceSha256": "27a16a7e85f1496bd700ba029621b1d4ab1d570360cc82b9c67f7a27c572174d",
+      "peerEvidencePath": "reports/review-20261003/independent-four-score-sum-source-oracles-who2001-final23.json",
+      "peerEvidenceSha256": "7c8e3bb0f5743d8026242e8efcb8fc406645290d741779120b141654f613af39",
+      "scope": "Integer point sum only. Item wording, diagnosis, severity thresholds, population applicability, translations, release suitability and rights are not approved.",
+      "source": {
+        "keys": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6",
+          "q7"
+        ],
+        "options": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "max": 21,
+        "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/410326/",
+        "edition": "Spitzer et al.2006, DOI10.1001/archinte.166.10.1092",
+        "locator": "GAD scale development and Results: seven items0–3 and sum0–21",
+        "access": "Original publisher full-text Methods and item-count/range statement read directly on2026-10-04."
+      },
+      "implementations": [
+        {
+          "app": "website",
+          "id": "gad-7",
+          "sha256": "fa929f2dd0a1425752419f0acfae6031aaa3159019a1f1977e85c92f9daa2b69"
+        },
+        {
+          "app": "dashboard",
+          "id": "gad-7",
+          "sha256": "fa929f2dd0a1425752419f0acfae6031aaa3159019a1f1977e85c92f9daa2b69"
+        },
+        {
+          "app": "command-center",
+          "id": "gad-7",
+          "sha256": "fa929f2dd0a1425752419f0acfae6031aaa3159019a1f1977e85c92f9daa2b69"
+        }
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "GAD 7/Spitzer 2006:7 itens 0–3, total 0–21; cortes 5/10/15; PTMoreno 2016",
+    "implementationVersion": "gad-7@native-2026-10-03+fa929f2dd0a1",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/16717171/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Cada item vale de 0 (nenhuma vez) a 3 (quase todos os dias). Total: 0 a 21. Pontos de corte de intensidade: 5, 10 e 15. Para rastrear transtorno de ansiedade generalizada, o corte ≥ 10 teve sensibilidade de 89% e especificidade de 82% no estudo original.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "q1",
+            "label": "Durante as últimas 2 semanas, com que frequência você foi incomodado(a) pelos problemas abaixo?<br>1. Sentir-se nervoso(a), ansioso(a) ou muito tenso(a)",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma vez",
+              "1": "Vários dias",
+              "2": "Mais da metade dos dias",
+              "3": "Quase todos os dias"
+            }
+          },
+          {
+            "key": "q2",
+            "label": "2. Não ser capaz de impedir ou de controlar as preocupações",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma vez",
+              "1": "Vários dias",
+              "2": "Mais da metade dos dias",
+              "3": "Quase todos os dias"
+            }
+          },
+          {
+            "key": "q3",
+            "label": "3. Preocupar-se muito com diversas coisas",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma vez",
+              "1": "Vários dias",
+              "2": "Mais da metade dos dias",
+              "3": "Quase todos os dias"
+            }
+          },
+          {
+            "key": "q4",
+            "label": "4. Dificuldade para relaxar",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma vez",
+              "1": "Vários dias",
+              "2": "Mais da metade dos dias",
+              "3": "Quase todos os dias"
+            }
+          },
+          {
+            "key": "q5",
+            "label": "5. Ficar tão agitado(a) que se torna difícil permanecer sentado(a)",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma vez",
+              "1": "Vários dias",
+              "2": "Mais da metade dos dias",
+              "3": "Quase todos os dias"
+            }
+          },
+          {
+            "key": "q6",
+            "label": "6. Ficar facilmente aborrecido(a) ou irritado(a)",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma vez",
+              "1": "Vários dias",
+              "2": "Mais da metade dos dias",
+              "3": "Quase todos os dias"
+            }
+          },
+          {
+            "key": "q7",
+            "label": "7. Sentir medo como se algo horrível fosse acontecer",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma vez",
+              "1": "Vários dias",
+              "2": "Mais da metade dos dias",
+              "3": "Quase todos os dias"
+            }
+          }
+        ],
+        "hash": "86f6ca166b80cfae4ca7b385ce60f4b104e4392b2e5e1c3fdebe4bd13f3c8291"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Spitzer RL et al. A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med, 2006.",
+          "url": "https://doi.org/10.1001/archinte.166.10.1092",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "A brief measure for assessing generalized anxiety disorder: the GAD-7.",
+            "year": "2006",
+            "firstPublicationDate": "2006-05-01",
+            "doi": "10.1001/archinte.166.10.1092",
+            "pmid": "16717171",
+            "journal": "Archives of internal medicine",
+            "authors": "Spitzer RL, Kroenke K, Williams JB, Löwe B."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/16717171/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "4c852db0122cdc6e5df5b15eaa71ccda0f8452234bb14ada38b4e186697bc3f7",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Moreno AL et al. Factor structure, reliability, and item parameters of the Brazilian-Portuguese version of the GAD-7 questionnaire. Temas em Psicologia, 2016.",
+          "url": "https://doi.org/10.9788/TP2016.1-25",
+          "class": "publisher-deposited-bibliography-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publisherDepositedMetadata": {
+            "title": "Factor Structure, Reliability, and Item Parameters of the Brazilian-Portuguese Version of the GAD-7 Questionnaire",
+            "doi": "10.9788/tp2016.1-25",
+            "year": 2016,
+            "publisher": "Associacao Brasileira de Psicologia",
+            "journal": "Temas em Psicologia",
+            "authors": [
+              "André Luiz Moreno",
+              "Diogo A. DeSousa",
+              "Ana Maria Frota Lisbôa P. Souza",
+              "Gisele G. Manfro",
+              "Giovanni A. Salum",
+              "Silvia H. Koller",
+              "Flávia L. Osório",
+              "José Alexandra S. Crippa"
+            ],
+            "url": "https://doi.org/10.9788/tp2016.1-25"
+          },
+          "publication": {
+            "title": "Factor Structure, Reliability, and Item Parameters of the Brazilian-Portuguese Version of the GAD-7 Questionnaire",
+            "doi": "10.9788/tp2016.1-25",
+            "year": 2016,
+            "publisher": "Associacao Brasileira de Psicologia",
+            "journal": "Temas em Psicologia",
+            "authors": [
+              "André Luiz Moreno",
+              "Diogo A. DeSousa",
+              "Ana Maria Frota Lisbôa P. Souza",
+              "Gisele G. Manfro",
+              "Giovanni A. Salum",
+              "Silvia H. Koller",
+              "Flávia L. Osório",
+              "José Alexandra S. Crippa"
+            ],
+            "url": "https://doi.org/10.9788/tp2016.1-25"
+          }
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T13:01:58.037Z",
+        "total": 44,
+        "passed": 44,
+        "evidencePath": "reports/review-20261003/four-score-sum-source-oracles-who2001-final23.json",
+        "scope": "Integer point sum only. Item wording, diagnosis, severity thresholds, population applicability, translations, release suitability and rights are not approved.",
+        "caseEvidence": {
+          "schema": "independentArithmeticTest.cases",
+          "recordedEvidenceSha256": "843b717ee552a602f659e1ebcf27f85e81b072acdda8006030ab71fff2898ebe"
+        }
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "fa929f2dd0a1425752419f0acfae6031aaa3159019a1f1977e85c92f9daa2b69"
+    },
+    "limits": "Rastreamento e medida de intensidade de sintomas de ansiedade generalizada em adultos. Um resultado provável requer avaliação diagnóstica. Os estudos de atenção primária e a amostra comunitária brasileira não validam automaticamente novas populações, a implementação local ou traduções adicionais.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:02.867Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Cortes numéricos, janela de duas semanas e texto integral de Moreno 2016 não foram verificados nesta leitura."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/gad-7/calculator.js",
+    "bytes": 6002,
+    "sha256": "fa929f2dd0a1425752419f0acfae6031aaa3159019a1f1977e85c92f9daa2b69"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "70c0fb628b968b4bdf8a56b7c6a17f13d9ab28dda38881189ed0db83ad875702",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 44,
+      "sha256": "8fc5d06fd6919db6c0702824bea6bd587f460be587dd13d145813b67773da4ce",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }
