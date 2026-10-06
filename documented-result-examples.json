@@ -1,0 +1,537 @@
+{
+  "id": "gad-7",
+  "implementationVersion": "gad-7@native-2026-10-05+4d96bef1b283",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Nervosismo e preocupação em vários dias, dificuldade para relaxar em vários dias: 3 (mínima)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Ansiedade mínima (0 a 4)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Instrumento de rastreamento: não faz diagnóstico.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 10 pontos (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Ansiedade moderada (10 a 14): rastreamento positivo",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Confirme com entrevista clínica: TAG, pânico, ansiedade social e TEPT também pontuam alto.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias”: 21 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Ansiedade grave (15 a 21): rastreamento positivo",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Confirme com entrevista clínica e inicie tratamento ativo.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Nervosismo e preocupação em vários dias, dificuldade para relaxar em vários dias: 3 (mínima)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Minimal anxiety (0 to 4)",
+            "locale": "en",
+            "template": "documented-authored-600e1bf0388957b8be0f"
+          },
+          "note": {
+            "text": "Screening instrument: does not make a diagnosis.",
+            "locale": "en",
+            "template": "documented-authored-cad5db8775f98279745f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 10 pontos (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Moderate anxiety (10 to 14): positive screening",
+            "locale": "en",
+            "template": "documented-authored-59bdfb7982260215ba41"
+          },
+          "note": {
+            "text": "Confirm with clinical interview: GAD, panic, social anxiety, and PTSD also score high.",
+            "locale": "en",
+            "template": "documented-authored-54f2761bb185495186ae"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias”: 21 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Severe anxiety (15 to 21): positive screening",
+            "locale": "en",
+            "template": "documented-authored-89e499c65c45a524df94"
+          },
+          "note": {
+            "text": "Confirm with clinical interview and start active treatment.",
+            "locale": "en",
+            "template": "documented-authored-289898b9ec2f9a1a9106"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Nervosismo e preocupação em vários dias, dificuldade para relaxar em vários dias: 3 (mínima)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Ansiedad mínima (0 a 4)",
+            "locale": "es",
+            "template": "documented-authored-600e1bf0388957b8be0f"
+          },
+          "note": {
+            "text": "Instrumento de cribado: no hace diagnóstico.",
+            "locale": "es",
+            "template": "documented-authored-cad5db8775f98279745f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 10 pontos (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Ansiedad moderada (10 a 14): cribado positivo",
+            "locale": "es",
+            "template": "documented-authored-59bdfb7982260215ba41"
+          },
+          "note": {
+            "text": "Confirme con entrevista clínica: el TAG, el pánico, la ansiedad social y el TEPT también puntúan alto.",
+            "locale": "es",
+            "template": "documented-authored-54f2761bb185495186ae"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias”: 21 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Ansiedad grave (15 a 21): cribado positivo",
+            "locale": "es",
+            "template": "documented-authored-89e499c65c45a524df94"
+          },
+          "note": {
+            "text": "Confirme con entrevista clínica e inicie tratamiento activo.",
+            "locale": "es",
+            "template": "documented-authored-289898b9ec2f9a1a9106"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Nervosismo e preocupação em vários dias, dificuldade para relaxar em vários dias: 3 (mínima)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Anxiété minime (0 à 4)",
+            "locale": "fr",
+            "template": "documented-authored-600e1bf0388957b8be0f"
+          },
+          "note": {
+            "text": "Outil de dépistage : ne permet pas d’établir un diagnostic.",
+            "locale": "fr",
+            "template": "documented-authored-cad5db8775f98279745f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 10 pontos (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Anxiété modérée (10 à 14) : dépistage positif",
+            "locale": "fr",
+            "template": "documented-authored-59bdfb7982260215ba41"
+          },
+          "note": {
+            "text": "Confirmer par entretien clinique : le TAG, le trouble panique, l’anxiété sociale et le TSPT obtiennent également des scores élevés.",
+            "locale": "fr",
+            "template": "documented-authored-54f2761bb185495186ae"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias”: 21 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Anxiété sévère (15 à 21) : dépistage positif",
+            "locale": "fr",
+            "template": "documented-authored-89e499c65c45a524df94"
+          },
+          "note": {
+            "text": "Confirmer par entretien clinique et instaurer un traitement actif.",
+            "locale": "fr",
+            "template": "documented-authored-289898b9ec2f9a1a9106"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Nervosismo e preocupação em vários dias, dificuldade para relaxar em vários dias: 3 (mínima)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Minimale Angst (0 bis 4)",
+            "locale": "de",
+            "template": "documented-authored-600e1bf0388957b8be0f"
+          },
+          "note": {
+            "text": "Screening-Instrument: stellt keine Diagnose.",
+            "locale": "de",
+            "template": "documented-authored-cad5db8775f98279745f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 10 pontos (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Mäßige Angst (10 bis 14): positives Screening",
+            "locale": "de",
+            "template": "documented-authored-59bdfb7982260215ba41"
+          },
+          "note": {
+            "text": "Mit klinischem Interview bestätigen: Auch GAS, Panik, soziale Angst und PTBS erzielen hohe Werte.",
+            "locale": "de",
+            "template": "documented-authored-54f2761bb185495186ae"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias”: 21 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Schwere Angst (15 bis 21): positives Screening",
+            "locale": "de",
+            "template": "documented-authored-89e499c65c45a524df94"
+          },
+          "note": {
+            "text": "Mit klinischem Interview bestätigen und eine aktive Behandlung einleiten.",
+            "locale": "de",
+            "template": "documented-authored-289898b9ec2f9a1a9106"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Nervosismo e preocupação em vários dias, dificuldade para relaxar em vários dias: 3 (mínima)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Ansia minima (0 a 4)",
+            "locale": "it",
+            "template": "documented-authored-600e1bf0388957b8be0f"
+          },
+          "note": {
+            "text": "Strumento di screening: non pone diagnosi.",
+            "locale": "it",
+            "template": "documented-authored-cad5db8775f98279745f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 10 pontos (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Ansia moderata (10 a 14): screening positivo",
+            "locale": "it",
+            "template": "documented-authored-59bdfb7982260215ba41"
+          },
+          "note": {
+            "text": "Confermare con intervista clinica: anche il DAG, il panico, l’ansia sociale e il PTSD ottengono punteggi elevati.",
+            "locale": "it",
+            "template": "documented-authored-54f2761bb185495186ae"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias”: 21 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Ansia grave (15 a 21): screening positivo",
+            "locale": "it",
+            "template": "documented-authored-89e499c65c45a524df94"
+          },
+          "note": {
+            "text": "Confermare con intervista clinica e iniziare un trattamento attivo.",
+            "locale": "it",
+            "template": "documented-authored-289898b9ec2f9a1a9106"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Nervosismo e preocupação em vários dias, dificuldade para relaxar em vários dias: 3 (mínima)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "قلق طفيف (0 إلى 4)",
+            "locale": "ar",
+            "template": "documented-authored-600e1bf0388957b8be0f"
+          },
+          "note": {
+            "text": "أداة تحرّي: لا تُشخِّص.",
+            "locale": "ar",
+            "template": "documented-authored-cad5db8775f98279745f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 10 pontos (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "قلق متوسط (10 إلى 14): تحرٍّ إيجابي",
+            "locale": "ar",
+            "template": "documented-authored-59bdfb7982260215ba41"
+          },
+          "note": {
+            "text": "تأكد بالمقابلة السريرية: اضطراب القلق المعمم، ونوبات الهلع، والقلق الاجتماعي، واضطراب ما بعد الصدمة تسجل أيضًا درجات مرتفعة.",
+            "locale": "ar",
+            "template": "documented-authored-54f2761bb185495186ae"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias”: 21 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "قلق شديد (15 إلى 21): تحرٍّ إيجابي",
+            "locale": "ar",
+            "template": "documented-authored-89e499c65c45a524df94"
+          },
+          "note": {
+            "text": "تأكد بالمقابلة السريرية وابدأ علاجًا فعّالًا.",
+            "locale": "ar",
+            "template": "documented-authored-289898b9ec2f9a1a9106"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Nervosismo e preocupação em vários dias, dificuldade para relaxar em vários dias: 3 (mínima)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "轻度焦虑（0到4）",
+            "locale": "zh",
+            "template": "documented-authored-600e1bf0388957b8be0f"
+          },
+          "note": {
+            "text": "筛查工具：不能作出诊断。",
+            "locale": "zh",
+            "template": "documented-authored-cad5db8775f98279745f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 10 pontos (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "中度焦虑（10到14）：筛查阳性",
+            "locale": "zh",
+            "template": "documented-authored-59bdfb7982260215ba41"
+          },
+          "note": {
+            "text": "请用临床访谈确认：GAD、惊恐、社交焦虑和PTSD也会得高分。",
+            "locale": "zh",
+            "template": "documented-authored-54f2761bb185495186ae"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias”: 21 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "重度焦虑（15到21）：筛查阳性",
+            "locale": "zh",
+            "template": "documented-authored-89e499c65c45a524df94"
+          },
+          "note": {
+            "text": "请用临床访谈确认并开始积极治疗。",
+            "locale": "zh",
+            "template": "documented-authored-289898b9ec2f9a1a9106"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Nervosismo e preocupação em vários dias, dificuldade para relaxar em vários dias: 3 (mínima)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "最小限の不安（0～4）",
+            "locale": "ja",
+            "template": "documented-authored-600e1bf0388957b8be0f"
+          },
+          "note": {
+            "text": "スクリーニング用ツール：診断は行わない。",
+            "locale": "ja",
+            "template": "documented-authored-cad5db8775f98279745f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 10 pontos (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "中等度の不安（10～14）：スクリーニング陽性",
+            "locale": "ja",
+            "template": "documented-authored-59bdfb7982260215ba41"
+          },
+          "note": {
+            "text": "臨床面接で確認する：全般性不安障害、パニック、社交不安、PTSDでも高得点となる。",
+            "locale": "ja",
+            "template": "documented-authored-54f2761bb185495186ae"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias”: 21 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "重度の不安（15～21）：スクリーニング陽性",
+            "locale": "ja",
+            "template": "documented-authored-89e499c65c45a524df94"
+          },
+          "note": {
+            "text": "臨床面接で確認し、積極的治療を開始する。",
+            "locale": "ja",
+            "template": "documented-authored-289898b9ec2f9a1a9106"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Nervosismo e preocupação em vários dias, dificuldade para relaxar em vários dias: 3 (mínima)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "न्यूनतम चिंता (0 से 4)",
+            "locale": "hi",
+            "template": "documented-authored-600e1bf0388957b8be0f"
+          },
+          "note": {
+            "text": "स्क्रीनिंग उपकरण: निदान नहीं करता।",
+            "locale": "hi",
+            "template": "documented-authored-cad5db8775f98279745f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 10 pontos (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "मध्यम चिंता (10 से 14): सकारात्मक स्क्रीनिंग",
+            "locale": "hi",
+            "template": "documented-authored-59bdfb7982260215ba41"
+          },
+          "note": {
+            "text": "नैदानिक साक्षात्कार से पुष्टि करें: GAD, पैनिक, सामाजिक चिंता और PTSD में भी स्कोर अधिक आता है।",
+            "locale": "hi",
+            "template": "documented-authored-54f2761bb185495186ae"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias”: 21 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "गंभीर चिंता (15 से 21): सकारात्मक स्क्रीनिंग",
+            "locale": "hi",
+            "template": "documented-authored-89e499c65c45a524df94"
+          },
+          "note": {
+            "text": "नैदानिक साक्षात्कार से पुष्टि करें और सक्रिय उपचार शुरू करें।",
+            "locale": "hi",
+            "template": "documented-authored-289898b9ec2f9a1a9106"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

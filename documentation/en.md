@@ -116,3 +116,28 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Minimal anxiety (0 to 4)
+
+Screening instrument: does not make a diagnosis.
+
+
+### 2
+
+Moderate anxiety (10 to 14): positive screening
+
+Confirm with clinical interview: GAD, panic, social anxiety, and PTSD also score high.
+
+
+### 3
+
+Severe anxiety (15 to 21): positive screening
+
+Confirm with clinical interview and start active treatment.
+

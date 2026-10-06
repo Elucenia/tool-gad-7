@@ -116,3 +116,28 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Ansiedade mínima (0 a 4)
+
+Instrumento de rastreamento: não faz diagnóstico.
+
+
+### 2
+
+Ansiedade moderada (10 a 14): rastreamento positivo
+
+Confirme com entrevista clínica: TAG, pânico, ansiedade social e TEPT também pontuam alto.
+
+
+### 3
+
+Ansiedade grave (15 a 21): rastreamento positivo
+
+Confirme com entrevista clínica e inicie tratamento ativo.
+

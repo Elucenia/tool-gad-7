@@ -267,7 +267,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "GAD 7/Spitzer 2006:7 itens 0–3, total 0–21; cortes 5/10/15; PTMoreno 2016",
-    "implementationVersion": "gad-7@native-2026-10-03+fa929f2dd0a1",
+    "implementationVersion": "gad-7@native-2026-10-05+4d96bef1b283",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/16717171/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -448,7 +448,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "fa929f2dd0a1425752419f0acfae6031aaa3159019a1f1977e85c92f9daa2b69"
+      "implementationHash": "4d96bef1b2835dbb4fba3bf0ba4ddeb8f3c7bb981898517449453496c126d7be",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "gad-7@native-2026-10-03+fa929f2dd0a1",
+          "previousImplementationHash": "fa929f2dd0a1425752419f0acfae6031aaa3159019a1f1977e85c92f9daa2b69",
+          "implementationHash": "4d96bef1b2835dbb4fba3bf0ba4ddeb8f3c7bb981898517449453496c126d7be",
+          "scientificBodySha256": "e85276683115c11c8a08c490b617391606f7137a1aaae50779ecc2e6796ea25d",
+          "metadataContractHash": "86f6ca166b80cfae4ca7b385ce60f4b104e4392b2e5e1c3fdebe4bd13f3c8291",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "Rastreamento e medida de intensidade de sintomas de ansiedade generalizada em adultos. Um resultado provável requer avaliação diagnóstica. Os estudos de atenção primária e a amostra comunitária brasileira não validam automaticamente novas populações, a implementação local ou traduções adicionais.",
     "sourceLimitEvidence": {
@@ -467,15 +495,15 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/gad-7/calculator.js",
-    "bytes": 6002,
-    "sha256": "fa929f2dd0a1425752419f0acfae6031aaa3159019a1f1977e85c92f9daa2b69"
+    "bytes": 6207,
+    "sha256": "4d96bef1b2835dbb4fba3bf0ba4ddeb8f3c7bb981898517449453496c126d7be"
   },
-  "sourceToolSha256": "70c0fb628b968b4bdf8a56b7c6a17f13d9ab28dda38881189ed0db83ad875702",
+  "sourceToolSha256": "6d69e73f6b894cbed29740ad6ef9dfc0e420437623b0bda9fdb74b204e6880bf",
   "omittedFullReferenceBanks": [
     {
       "rows": 44,
       "sha256": "8fc5d06fd6919db6c0702824bea6bd587f460be587dd13d145813b67773da4ce",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

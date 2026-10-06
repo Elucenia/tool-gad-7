@@ -116,3 +116,28 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Anxiété minime (0 à 4)
+
+Outil de dépistage : ne permet pas d’établir un diagnostic.
+
+
+### 2
+
+Anxiété modérée (10 à 14) : dépistage positif
+
+Confirmer par entretien clinique : le TAG, le trouble panique, l’anxiété sociale et le TSPT obtiennent également des scores élevés.
+
+
+### 3
+
+Anxiété sévère (15 à 21) : dépistage positif
+
+Confirmer par entretien clinique et instaurer un traitement actif.
+

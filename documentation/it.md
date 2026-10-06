@@ -116,3 +116,28 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Ansia minima (0 a 4)
+
+Strumento di screening: non pone diagnosi.
+
+
+### 2
+
+Ansia moderata (10 a 14): screening positivo
+
+Confermare con intervista clinica: anche il DAG, il panico, l’ansia sociale e il PTSD ottengono punteggi elevati.
+
+
+### 3
+
+Ansia grave (15 a 21): screening positivo
+
+Confermare con intervista clinica e iniziare un trattamento attivo.
+
